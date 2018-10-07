@@ -1,6 +1,9 @@
 import media
 import fresh_tomatoes
 
+
+#The movies wanted to be displayed in browser
+
 the_nun = media.Movie("The Nun","https://m.media-amazon.com/images/M/MV5BMjEwMDE1NzI3M15BMl5BanBnXkFtZTgwNjg2NjExNjM@._V1_.jpg",
 	"https://youtu.be/pzD9zGcUNrw","A priest with a haunted past and a novice on the threshold of her final vows are sent by the \
 	Vatican to investigate the death of a young nun in Romania and confront a malevolent force in the form of a demonic nun.")
@@ -21,5 +24,7 @@ kung_fu_panda = media.Movie("Kung Fu Panda","https://m.media-amazon.com/images/M
 	"https://youtu.be/PXi3Mv6KMzY","The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance: However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a tyro in martial arts")
 
 movies_list = [the_nun,venom,man_of_steel,justice_league,the_lion_king,kung_fu_panda]
+
+#Calling the function which generates the HTML file
 
 fresh_tomatoes.open_movies_page(movies_list)
