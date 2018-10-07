@@ -1,8 +1,25 @@
 import media
 import fresh_tomatoes
 
-the_nun = media.Movie("The Nun","https://m.media-amazon.com/images/M/MV5BMjEwMDE1NzI3M15BMl5BanBnXkFtZTgwNjg2NjExNjM@._V1_.jpg",\
+the_nun = media.Movie("The Nun","https://m.media-amazon.com/images/M/MV5BMjEwMDE1NzI3M15BMl5BanBnXkFtZTgwNjg2NjExNjM@._V1_.jpg",
 	"https://youtu.be/pzD9zGcUNrw","A priest with a haunted past and a novice on the threshold of her final vows are sent by the \
 	Vatican to investigate the death of a young nun in Romania and confront a malevolent force in the form of a demonic nun.")
 
-fresh_tomatoes.open_movies_page([the_nun])
+venom = media.Movie("Venom","https://m.media-amazon.com/images/M/MV5BNzAwNzUzNjY4MV5BMl5BanBnXkFtZTgwMTQ5MzM0NjM@._V1_.jpg",
+	"https://youtu.be/u9Mv98Gr5pY","When Eddie Brock acquires the powers of a symbiote, he will have to release his alter-ego \"Venom\" to save his life.")
+
+man_of_steel = media.Movie("Man of Steel","https://m.media-amazon.com/images/M/MV5BMTk5ODk1NDkxMF5BMl5BanBnXkFtZTcwNTA5OTY0OQ@@._V1_SY1000_CR0,0,676,1000_AL_.jpg",
+	"https://youtu.be/T6DJcgm3wNY","Clark Kent, one of the last of an extinguished race disguised as an unremarkable human, is forced to reveal his identity when Earth is invaded by an army of survivors who threaten to bring the planet to the brink of destruction")
+
+justice_league = media.Movie("Justice League","https://m.media-amazon.com/images/M/MV5BYWVhZjZkYTItOGIwYS00NmRkLWJlYjctMWM0ZjFmMDU4ZjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_SX675_AL_.jpg",
+	"https://youtu.be/r9-DM9uBtVI","Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his newfound ally, Diana Prince, to face an even greater enemy.")
+
+the_lion_king = media.Movie("The Lion King","https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_SY1000_CR0,0,673,1000_AL_.jpg",
+	"https://youtu.be/4sj1MT05lAA","A Lion cub crown prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to learn in adulthood his identity and his responsibilities.")
+
+kung_fu_panda = media.Movie("Kung Fu Panda","https://m.media-amazon.com/images/M/MV5BODJkZTZhMWItMDI3Yy00ZWZlLTk4NjQtOTI1ZjU5NjBjZTVjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SY1000_CR0,0,689,1000_AL_.jpg",
+	"https://youtu.be/PXi3Mv6KMzY","The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance: However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a tyro in martial arts")
+
+movies_list = [the_nun,venom,man_of_steel,justice_league,the_lion_king,kung_fu_panda]
+
+fresh_tomatoes.open_movies_page(movies_list)
