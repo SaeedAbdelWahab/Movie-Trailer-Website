@@ -7,7 +7,7 @@ import fresh_tomatoes
 
 the_nun = media.Movie('The Nun',
                       'https://m.media-amazon.com/images/M/MV5BMjEwMDE1NzI3M15B\
-    Ml5BanBnXkFtZTgwNjg2NjExNjM@._V1_.jpg,'
+    Ml5BanBnXkFtZTgwNjg2NjExNjM@._V1_.jpg',
                       'https://youtu.be/pzD9zGcUNrw',
                       "A priest with a haunted past and a novice on the thresho\
     ud of her final vows are sent by the Vatican to investigate the death of a\
