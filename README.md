@@ -1,4 +1,4 @@
-# ud036_StarterCode
+# Movie Trailer website
 
 Source code for a Movie Trailer website.It displays the poster and the trailers of 
 some of the movies provided in a stylish way
